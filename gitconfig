@@ -1,5 +1,4 @@
 [init]
-  defaultBranch = main
   templatedir = ~/.git_template
 [push]
   default = current
@@ -18,13 +17,10 @@
   autocrlf = input
 [merge]
   ff = only
-[commit]
-  template = ~/.gitmessage
-[fetch]
-  prune = true
-[rebase]
-  autosquash = true
-[include]
-  path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[user]
+	name = Evgenii Ivanov
+	email = 31668382+evivanov@users.noreply.github.com
+[log]
+	date = rfc
